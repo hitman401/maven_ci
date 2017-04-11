@@ -1,0 +1,12 @@
+language: java
+
+jdk:
+  - oraclejdk7
+
+matrix:
+  include:
+    - os: linux
+    - os: osx
+  
+before_install:
+  - java --version
